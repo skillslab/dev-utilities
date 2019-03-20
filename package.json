@@ -1,0 +1,17 @@
+{
+  "name": "slab-dev-utilities",
+  "version": "0.0.1",
+  "description": "A collection of skills.lab's team configs and utilities used for development.",
+  "main": "",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skillslab/dev-utilities.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skillslab/dev-utilities/issues"
+  },
+  "homepage": "https://github.com/skillslab/dev-utilities#readme"
+}
