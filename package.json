@@ -13,5 +13,8 @@
   "bugs": {
     "url": "https://github.com/skillslab/dev-utilities/issues"
   },
-  "homepage": "https://github.com/skillslab/dev-utilities#readme"
+  "homepage": "https://github.com/skillslab/dev-utilities#readme",
+  "dependencies": {
+    "codelyzer": "^5.0.0-beta.1"
+  }
 }
