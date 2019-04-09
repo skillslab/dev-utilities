@@ -27,10 +27,10 @@ axobject-query@^2.0.2:
   dependencies:
     ast-types-flow "0.0.7"
 
-codelyzer@^5.0.0-beta.1:
-  version "5.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/codelyzer/-/codelyzer-5.0.0-beta.1.tgz#749bc5d7f9cb73f71cc17594bae85227de0434fb"
-  integrity sha512-Pz+AF7F6SdO/aKvRNeDFFHWqSe0vGzbv3F1gu+OrE7+hbIeXm8RFafXZVYsO3edek9cRP8abo/mw28LK/BUSEA==
+codelyzer@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/codelyzer/-/codelyzer-5.0.0.tgz#e4032efb23a7c5d4bcfe7321fc1789490c679837"
+  integrity sha512-Bif70XYt8NFf/Q9GPTxmC86OsBRfQZq1dBjdruJ5kZhJ8/jKhJL6MvCLKnYtSOG6Rhiv/44DU0cHk6GYthjy8Q==
   dependencies:
     app-root-path "^2.1.0"
     aria-query "^3.0.0"
