@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "ban": [
+      true,
+      { "name": ["describe", "only"], "message": "Do not focus tests." },
+      { "name": ["it", "only"], "message": "Do not focus tests." },
+      { "name": ["it", "skip"], "message": "Do not skip single tests." },
+      { "name": ["test", "only"], "message": "Do not focus tests." },
+      { "name": ["test", "skip"], "message": "Do not skip single tests." }
+    ]
+  }
+}
