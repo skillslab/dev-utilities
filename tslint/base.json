@@ -7,6 +7,18 @@
       { "name": ["it", "skip"], "message": "Do not skip single tests." },
       { "name": ["test", "only"], "message": "Do not focus tests." },
       { "name": ["test", "skip"], "message": "Do not skip single tests." }
+    ],
+    "no-null-undefined-union": true,
+    "no-tautology-expression": true,
+    "static-this": true,
+    "unnecessary-else": true,
+    "variable-name": [
+      true,
+      "allow-leading-underscore",
+      "allow-pascal-case",
+      "ban-keywords",
+      "check-format",
+      "require-const-for-all-caps"
     ]
   }
 }
