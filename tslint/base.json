@@ -58,7 +58,6 @@
     "no-switch-case-fall-through": true,
     "object-literal-sort-keys": false,
     "no-this-assignment": true,
-    "no-unused-expression-chai": [true, "allow-new"],
     "no-floating-promises": false,
     "one-line": [
       true,
