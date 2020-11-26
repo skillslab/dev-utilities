@@ -1,7 +1,10 @@
 module.exports = {
   rules: {
     "@typescript-eslint/await-thenable": "error",
-    "@typescript-eslint/class-name-casing": "error",
+    "@typescript-eslint/naming-convention": [
+      "error",
+      { selector: "class", format: ["PascalCase"] },
+    ],
     "@typescript-eslint/consistent-type-assertions": "error",
     indent: "off",
     "@typescript-eslint/indent": "off", // -> we use prettier
@@ -10,13 +13,13 @@ module.exports = {
       {
         multiline: {
           delimiter: "semi",
-          requireLast: true
+          requireLast: true,
         },
         singleline: {
           delimiter: "semi",
-          requireLast: false
-        }
-      }
+          requireLast: false,
+        },
+      },
     ],
     "@typescript-eslint/no-empty-function": "off",
     "@typescript-eslint/no-empty-interface": "error",
@@ -52,8 +55,8 @@ module.exports = {
     "max-len": [
       "off",
       {
-        code: 80
-      }
+        code: 80,
+      },
     ],
     "no-bitwise": "off",
     "no-caller": "error",
@@ -83,9 +86,9 @@ module.exports = {
           "timeline",
           "timelineEnd",
           "timeStamp",
-          "context"
-        ]
-      }
+          "context",
+        ],
+      },
     ],
     "no-debugger": "error",
     "no-duplicate-imports": "error",
@@ -95,20 +98,20 @@ module.exports = {
     "no-invalid-this": "off",
     "no-multiple-empty-lines": "error",
     "no-new-wrappers": "error",
-    "no-redeclare": "error",
     "no-restricted-properties": [
       2,
       { object: "describe", property: "only", message: "Don't focus tests." },
       { object: "it", property: "only", message: "Don't focus tests." },
-      { object: "test", property: "only", message: "Don't focus tests." }
+      { object: "test", property: "only", message: "Don't focus tests." },
     ],
     "no-return-await": "error",
     "no-sequences": "error",
-    "no-shadow": [
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": [
       "error",
       {
-        hoist: "all"
-      }
+        hoist: "all",
+      },
     ],
     "no-template-curly-in-string": "error",
     "no-throw-literal": "error",
@@ -119,11 +122,11 @@ module.exports = {
     "prefer-const": [
       "error",
       {
-        destructuring: "all"
-      }
+        destructuring: "all",
+      },
     ],
     radix: "error",
     "spaced-comment": "error",
-    "use-isnan": "error"
-  }
+    "use-isnan": "error",
+  },
 };
